@@ -13,6 +13,7 @@ Hi visitor! These are the instructions for running my app:
 -This app was tested on Google Chrome.
 -React app is running in the port  3000.
 -Node server is running in the port 4000.
+-In the src folder, you'll find a file named "phoneCatalog.json", which is used as a data base. It is already initialized with some objects. In case something happen there's a file name "DB_Backup.json" which contains a backup of the original data base.
 -The dependencies used were (you can also see it in package.json):
    "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
