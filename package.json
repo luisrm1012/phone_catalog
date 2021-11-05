@@ -2,20 +2,27 @@
   "name": "phone_catalog",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "express": "^4.17.1",
+    "lowdb": "^3.0.0",
+    "nodemon": "^2.0.14",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "react-spinners": "^0.11.0",
+    "web-vitals": "^1.1.2",
+    "wouter": "^2.8.0-alpha.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "devStart": "nodemon ./src/server.js"
   },
   "eslintConfig": {
     "extends": [
