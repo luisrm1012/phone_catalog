@@ -81,13 +81,10 @@ app.post("/addPhone", (req, res) => {
 //Should be PUT, but HTML form donest allow method="PUT"
 app.post("/editPhone",(req,res) => {
     let newPhone = req.body;
-    console.log(req.body)
-    console.log("antes" +newPhone.name)
     db.read();
     db.data.forEach(i => {
         if (i.name == newPhone.name) {
             i.name = newPhone.newName
-            console.log("i.name: " + i.name)
             i.manufacturer = newPhone.manufacturer
             i.description = newPhone.description
             i.color = newPhone.color
@@ -99,7 +96,6 @@ app.post("/editPhone",(req,res) => {
             i = setUnkown(i);
         }
     });
-    console.log("despues " + db.data[1].name)
     db.write();
     res.redirect(`http://127.0.0.1:3000/`)
 })
