@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+Hi visitor! These are the instructions for running my app:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*** IMPORTANT: You may have node.js and npm installed on your machine ***
 
-## Available Scripts
+1. Download the project.
+2. Open a terminal and get into the directory of the folder's project. Example: "C:YourPath\phone_catalog"
+3. Once you are there, execute the command "npm i" or "npm install" to install the dependencies.
+4. Then in the terminal, execute command "npm start" or "npm run start".
+5. Then open another terminal in the same directory, and execute the command "node src/server.js"
+6. Now yoy may have the react-app executed on your browser. If not, type "http://localhost:3000/" in the search bar of your browser.
 
-In the project directory, you can run:
+*** IMPORTANT Information ***
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-This app was tested on Google Chrome.
+-React app is running in the port  3000.
+-Node server is running in the port 4000.
+-In the src folder, you'll find a file named "phoneCatalog.json", which is used as a data base. It is already initialized with some objects. In case something happen there's a file name "DB_Backup.json" which contains a backup of the original data base.
+-The dependencies used were (you can also see it in package.json):
+   "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "express": "^4.17.1",
+    "lowdb": "^3.0.0",
+    "nodemon": "^2.0.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "react-spinners": "^0.11.0",
+    "web-vitals": "^1.1.2",
+    "wouter": "^2.8.0-alpha.1"
+-Node version used --> 14.15.5
+-npm version used --> 6.14.11
