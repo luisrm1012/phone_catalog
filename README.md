@@ -4,9 +4,10 @@ Hi visitor! These are the instructions for running my app:
 
 1. Download the project.
 2. Open a terminal and get into the directory of the folder's project. Example: "C:YourPath\phone_catalog"
-3. Once you are there, execute the command "npm start".
-4. Then open another terminal in the same directory, and execute the command "node src/server.js"
-5. Now yoy may have the react-app executed on your browser. If not, type "http://localhost:3000/" in the search bar of your browser.
+3. Once you are there, execute the command "npm i" or "npm install" to install the dependencies.
+4. Then in the terminal, execute command "npm start".
+5. Then open another terminal in the same directory, and execute the command "node src/server.js"
+6. Now yoy may have the react-app executed on your browser. If not, type "http://localhost:3000/" in the search bar of your browser.
 
 *** IMPORTANT Information ***
 
